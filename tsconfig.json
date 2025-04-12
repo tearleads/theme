@@ -1,0 +1,16 @@
+{
+  "extends": "@tsconfig/strictest",
+  "compilerOptions": {
+    "outDir": "./.ts-out",
+    "rootDir": ".",
+    "target": "esnext",
+    "module": "esnext",
+    "checkJs": false,
+    "allowJs": false,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "strict": true,
+    "moduleResolution": "node",
+    "incremental": true
+  },
+}
