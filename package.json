@@ -2,7 +2,7 @@
   "name": "@tearleads/theme",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.ts",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,6 +10,8 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "biome": "0.3.3"
+    "@tsconfig/strictest": "2.0.5",
+    "biome": "0.3.3",
+    "typescript": "5.8.3"
   }
 }
