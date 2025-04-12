@@ -13,7 +13,4 @@
     "moduleResolution": "node",
     "incremental": true
   },
-  "ts-node": {
-    "swc": true
-  }
 }
