@@ -2,17 +2,17 @@
   "name": "@tearleads/theme",
   "version": "1.0.0",
   "description": "",
-  "main": ".ts-out/index.js",
-  "types": ".ts-out/index.d.ts",
+  "main": "./index.ts",
+  "types": "./index.ts",
   "type": "module",
   "exports": {
     ".": {
-      "import": "./.ts-out/index.js",
-      "types": "./.ts-out/index.d.ts"
+      "import": "./index.ts",
+      "types": "./index.ts"
     }
   },
   "files": [
-    ".ts-out"
+    "./index.ts"
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -29,5 +29,8 @@
   },
   "dependencies": {
     "@mui/material": "7.0.2"
+  },
+  "peerDependencies": {
+    "@mui/material": "^7.0.0"
   }
 }
