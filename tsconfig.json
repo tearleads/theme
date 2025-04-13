@@ -1,7 +1,7 @@
 {
   "extends": "@tsconfig/strictest",
   "compilerOptions": {
-    "outDir": "./.ts-out",
+    "noEmit": true,
     "rootDir": ".",
     "target": "esnext",
     "module": "esnext",
@@ -11,6 +11,7 @@
     "esModuleInterop": true,
     "strict": true,
     "moduleResolution": "node",
-    "incremental": true
+    "declaration": true,
+    "declarationMap": true
   },
 }

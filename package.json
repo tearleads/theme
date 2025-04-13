@@ -2,8 +2,18 @@
   "name": "@tearleads/theme",
   "version": "1.0.0",
   "description": "",
-  "main": "index.ts",
+  "main": "./index.ts",
+  "types": "./index.ts",
   "type": "module",
+  "exports": {
+    ".": {
+      "import": "./index.ts",
+      "types": "./index.ts"
+    }
+  },
+  "files": [
+    "./index.ts"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
@@ -19,5 +29,8 @@
   },
   "dependencies": {
     "@mui/material": "7.0.2"
+  },
+  "peerDependencies": {
+    "@mui/material": "^7.0.0"
   }
 }
