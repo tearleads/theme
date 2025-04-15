@@ -5,11 +5,10 @@
     "esModuleInterop": true,
     "types": ["vitest/globals", "@testing-library/jest-dom"],
     "rootDir": "..",
-    "allowJs": true
   },
   "include": [
     "./**/*.ts",
-    "./**/*.tsx",
-    "setupTests.ts"
-  ]
+    "./**/*.test.tsx",
+  ],
+  "exclude": []
 }
