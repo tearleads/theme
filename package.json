@@ -1,6 +1,6 @@
 {
   "name": "@tearleads/theme",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "",
   "main": "./index.ts",
   "types": "./index.ts",
@@ -15,20 +15,26 @@
     "./index.ts"
   ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "vitest --no-watch",
     "build": "tsc",
     "prepare": "husky"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@testing-library/jest-dom": "6.6.3",
+    "@testing-library/react": "16.3.0",
     "@tsconfig/strictest": "2.0.5",
+    "@vitejs/plugin-react": "4.3.4",
     "biome": "0.3.3",
     "husky": "9.1.7",
-    "typescript": "5.8.3"
+    "jsdom": "26.1.0",
+    "react": "19.1.0",
+    "typescript": "5.8.3",
+    "vitest": "3.1.1"
   },
   "dependencies": {
-    "@mui/material": "7.0.2"
+    "@mui/material": "^7.0.0"
   },
   "peerDependencies": {
     "@mui/material": "^7.0.0"
