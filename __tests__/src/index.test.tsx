@@ -1,7 +1,7 @@
 import { describe, it, expect } from 'vitest';
 import { render } from '@testing-library/react';
 import {ThemeProvider} from '@mui/material/styles';
-import { darkTheme, lightTheme } from '../src/index';
+import { darkTheme, lightTheme } from '../../src/index';
 
 const TestComponent = () => {
   const theme = useTheme();
